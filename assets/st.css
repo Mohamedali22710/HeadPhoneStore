@@ -211,6 +211,32 @@ img {
 .nav__link:hover {
   border-bottom: #fff 1px solid;
 }
+.nav__cart {
+  position: relative;
+  font-size: 1.25rem;
+  color: var(--white-color);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav__cart:hover {
+  color: var(--title-color);
+}
+
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: #ff4444;
+  color: var(--white-color);
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-semi-bold);
+  padding: 2px 6px;
+  border-radius: 10px;
+  display: none;
+  min-width: 18px;
+  text-align: center;
+}
 
 .nav__close {
   position: absolute;
