@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products - Head Store</title>
+    <!-- link icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- css file -->
+    <link rel="stylesheet" href="./product.css" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/img/favicon.png" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img src="../assets/img/logo.png" alt="Logo" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="../index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Specs</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Case</a>
+            </li>
+            <li class="nav__item">
+              <a href="./product.html" class="nav__link active-link">Products</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__actions">
+          <a href="../cart/cart.html" class="nav__cart">
+            <i class="ri-shopping-cart-line"></i>
+            <span class="cart-badge" id="cartCount">0</span>
+          </a>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-function-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+      <section class="products section" id="products">
+        <h2 class="products-title">
+          Choose Your <br />
+          Style Product
+        </h2>
+
+        <div class="product-cont container grid" id="myProduct">
+          <!-- Products will be dynamically added here -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section">
+      <div class="footer-cont grid container">
+        <a href="index.html" class="footer-logo">
+          <img src="../assets/img/logo.png" alt="Logo" />
+        </a>
+        <div class="footer-content">
+          <h3 class="foot-title">headphone store</h3>
+          <ul class="foot-link">
+            <li>
+              <a href="#" class="foot-links">Headphone</a>
+            </li>
+            <li>
+              <a href="#" class="foot-links">Earbuds</a>
+            </li>
+            <li>
+              <a href="#" class="foot-links">Earphones</a>
+            </li>
+          </ul>
+        </div>
+        <!-- p2 of foot -->
+        <div class="footer-content">
+          <h3 class="foot-title">Support</h3>
+          <ul class="foot-link">
+            <li>
+              <a href="#" class="foot-links">product help</a>
+            </li>
+            <li>
+              <a href="register.html" class="foot-links">register</a>
+            </li>
+            <li>
+              <a href="#" class="foot-links">updates</a>
+            </li>
+            <li>
+              <a href="#" class="foot-links">provides</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-copy">© 2024 Headphone Store. All rights reserved.</p>
+    </footer>
+
+    <script src="../index.js"></script>
+    <script src="product.js"></script>
+  </body>
+</html>

@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Head store</title>
+    <!-- link icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- css file -->
+    <link rel="stylesheet" href="./assets/st.css">
+
+    <!-- <link rel="stylesheet" href="./sty.css" /> -->
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/img/favicon.png" />
+  </head>
+  <body>
+      <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/logo.png" alt="Logo" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#specs" class="nav__link">Specs</a>
+            </li>
+            <li class="nav__item">
+              <a href="#case" class="nav__link">Case</a>
+            </li>
+            <li class="nav__item">
+              <a href="#product" class="nav__link">Products</a>
+            </li>
+          </ul>
+
+           
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+          <div class="nav__auth-desktop">
+      <a href="./SIGN/LOGIN.HTML" class="auth__login button button--small ">Login</a>
+      <a href="./SIGN/SIGN.HTML" class="button button--small">Register</a>
+    </div> 
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+ 
+    <!-- main -->
+    <section class="home section" id="home">
+      <div class="home_container container grid">
+        <!-- img of home -->
+        <div class="homeImg">
+          <img src="./assets/img/home.png" alt="" />
+        </div>
+        <div class="home-data">
+          <div class="home__header">
+            <h1 class="home__title">on ear</h1>
+            <h2 class="home__subtitle">Beat 4</h2>
+          </div>
+          <div class="home__footer">
+            <h3 class="home__title-description">OverView</h3>
+            <p class="home__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio aut pariatur impedit ut vitae! Error reprehenderit
+              iusto quis unde eaque corporis veritatis corrupti suscipit
+              accusantium? Numquam minus fuga fugit id?
+            </p>
+             <a href="#" class="button button--flex">
+          <span class="button--flex">
+            <i class="ri-shopping-bag-line btn-icon"></i> add to bag
+          </span>
+          <span class="home-price">$255</span>
+        </a>
+          </div>
+        </div>
+
+       
+      </div>
+    </section>
+
+    <section class="sponsor section autoDisplay" >
+      <div class="sponsor__cont grid container">
+        <img
+          src="./assets/img/sponsor1.png"
+          alt=""
+          srcset=""
+          class="sponsorImg"
+        />
+        <img
+          src="./assets/img/sponsor2.png"
+          alt=""
+          srcset=""
+          class="sponsorImg"
+        />
+        <img
+          src="./assets/img/sponsor3.png"
+          alt=""
+          srcset=""
+          class="sponsorImg"
+        />
+        <img
+          src="./assets/img/sponsor4.png"
+          alt=""
+          srcset=""
+          class="sponsorImg"
+        />
+      </div>
+    </section>
+
+    <section class="case grid section autoDisplay" id="case">
+      <h2 class="section__title-gradient section__title">Case</h2>
+      <div class="container grid case_cont">
+        <div>
+          <img src="./assets/img/case.png" alt="" class="imgcase " />
+        </div>
+        <div class="case-data">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+            saepe magni animi optio atque. Accusamus molestiae sint nemo maiores
+            quam repellendus mollitia totam
+          </p>
+          <a href="#" class="button button--flex">
+            <i class="ri-information-line btn-icon"></i> More Info
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dicount autoDisplay">
+      <div class="disc_count grid counter">
+        <div class="disc-anim">
+          <h2 class="disc_title">
+            Lorem ipsum, <br />
+            dolor sit amet consectetur
+          </h2>
+          <p>Get it now up to 60% discount</p>
+          <a href="#" class="button button--flex">
+            <i class="ri-shopping-bag-line btn-icon"></i> Shop Now
+          </a>
+        </div>
+        <img src="./assets/img/discount.png" alt="" class="discImg adeInright">
+      </div>
+    </section>
+
+    <section class="products section autoDisplay" id="product">
+      <h2 class="products-title">
+          choose your <br />
+          style product
+        </h2>
+
+      <div class="product-cont container grid">
+        <!-- pr1 -->
+        <div class="product-card fadeInright ">
+          <div class="product-content">
+            <img src="./assets/img/product1.png"  class="product-img">
+            <h3>black headphone</h3>
+            <span class="priceProduct">$200</span>
+            <button class="button button--flex product-btn">
+               <i class="ri-shopping-bag-line btn-icon"></i> Shop Now
+            </button>
+          </div>
+        </div>
+        <!-- pr2 -->
+         <div class="product-card">
+          <div class="product-content">
+            <img src="./assets/img/product2.png" class="product-img" alt="">
+            <h3>black red headphone</h3>
+            <span class="priceProduct">$200</span>
+            <button class="button button--flex product-btn">
+               <i class="ri-shopping-bag-line btn-icon"></i> Shop Now
+            </button>
+          </div>
+        </div>
+        <!-- pr3 -->
+         <div class="product-card fadeInright">
+          <div class="product-content">
+            <img src="./assets/img/product3.png"  class="product-img" alt="">
+            <h3>black  yellow </h3>
+            <span class="priceProduct">$200</span>
+            <button class="button button--flex product-btn ">
+               <i class="ri-shopping-bag-line btn-icon"></i> Shop Now
+            </button>
+          </div>
+        </div>
+        <!-- pr4 -->
+         <div class="product-card ">
+          <div class="product-content">
+            <img src="./assets/img/product4.png" class="product-img"  alt="">
+            <h3 class="title-pr">black blue</h3>
+            <span class="priceProduct">$200</span>
+            <button class="button button--flex product-btn">
+               <i class="ri-shopping-bag-line btn-icon"></i> Shop Now
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="footer section">
+      <div class="footer-cont grid container">
+        <a href="#" class="footer-logo">
+          <img src="./assets/img/logo.png" alt="">
+        </a>
+        <div class="footer-content">
+          <h3 class="foot-title">
+            headphone store
+          </h3>
+          <ul class="foot-link">
+            <li>
+              <a href="" class="foot-links">Headphone</a>
+            </li>
+            <li>
+              <a href="" class="foot-links">Earbuds</a>
+            </li>
+            <li>
+               <a href="" class="foot-links">Earphones</a>
+            </li>
+          </ul>
+        </div>
+        <!-- p2 of foot -->
+         <div class="footer-content">
+          <h3 class="foot-title">
+            Support
+          </h3>
+          <ul class="foot-link">
+            <li>
+              <a href="" class="foot-links">product help</a>
+            </li>
+            <li>
+              <a href="" class="foot-links">register</a>
+            </li>
+            <li>
+               <a href="" class="foot-links">updates</a>
+            </li>
+            <li>
+               <a href="" class="foot-links">provides</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
